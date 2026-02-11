@@ -4,6 +4,25 @@
 | TP06-06 | IGE     | Francisco Cabral  | 105418   |
 | TP06-06 | IGE     | Fredson Munguambe | 111825   |
 
+**Tipos de Navios (Versão Descobrimentos)**
+
+Nesta versão histórica da Batalha Naval utilizamos navios da época dos Descobrimentos.
+
+Nome (PT)	Nome (EN)	Dimensão	Quantidade
+Galeão	Galleon	5	1
+Fragata	Frigate	4	1
+Nau	Carrack	3	2
+Caravela	Caravel	2	3
+Barca	Barge	1	4
+Regras de posicionamento:
+
+Apenas horizontal ou vertical
+
+Não podem sobrepor-se
+
+Não podem tocar-se
+
+Podem encostar à borda da grelha
 
 **Regras do Jogo**
 
