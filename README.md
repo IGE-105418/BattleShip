@@ -1,3 +1,3 @@
-# Battleship
-
-Basic academic version of Battleship game to build upon.
+Grupo TP06-06 IGE
+Membros: 
+Eduardo Carvalho - 111722
