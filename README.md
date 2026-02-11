@@ -53,3 +53,15 @@ Condição de Vitória
 **Ganha o jogador que:**
 
 Afundar todos os navios do adversário primeiro
+
+Contexto histórico:
+
+Esta versão inspira-se na frota marítima da época dos Descobrimentos Portugueses.
+
+Alguns navios históricos:
+Galeão
+Fragata
+Nau
+Caravela
+
+Estes navios foram fundamentais na expansão marítima portuguesa dos séculos XV e XVI 
