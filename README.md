@@ -4,7 +4,7 @@
 | TP06-06 | IGE     | Francisco Cabral  | 105418   |
 | TP06-06 | IGE     | Fredson Munguambe | 111825   |
 
-**Pipos de Navios (Versão Descobrintos)**
+**Sipos de Navios (Versão Descobrintos)**
 
 Nesta versão histórica da Batalha Naval utilizamos navios da época dos Descobrimentos.
 
