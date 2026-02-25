@@ -252,6 +252,7 @@ public abstract class Ship implements IShip {
     public boolean tooCloseTo(IShip other) {
         assert other != null;
 
+
         Iterator<IPosition> otherPos = other.getPositions().iterator();
         while (otherPos.hasNext())
             if (tooCloseTo(otherPos.next()))
