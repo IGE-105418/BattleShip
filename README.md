@@ -6,7 +6,7 @@
 
 | Curso | Número | Nome |
 | :---: | :---: | :--- |
-| IGE | 111722 | Eduardo Carvalho |
+| IGE | 111722 | Eduardo Carvalho |.
 | IGE | 105418 | Francisco Cabral |
 | IGE | 105333 | Francisca Bastos |
 | IGE | 111825 | Fredson Munguambe |
@@ -49,6 +49,7 @@ O jogo decorre numa **grelha de 10x10**, onde cada jogador possui duas grelhas: 
 Ganha o jogo o primeiro jogador que **afundar todos os navios** da frota adversária.
 
 ----
+---.
 
 ## 🔗 Contexto Histórico
 Esta versão inspira-se fortemente na frota marítima da época dos Descobrimentos Portugueses. Estes navios foram fundamentais na expansão marítima nos séculos XV e XVI. Para conhecerem melhor os navios desta época:
