@@ -1,67 +1,58 @@
-| Grupo   | Unidade | Nome              | Nº Aluno |
-| ------- | ------- | ----------------- | -------- |
-| TP06-06 | IGE     | Eduardo Carvalho  | 111722   |
-| TP06-06 | IGE     | Francisco Cabral  | 105418   |
-| TP06-06 | IGE     | Fredson Munguambe | 111825   |
+# 🌊 Discoveries Battleship Game
 
-**Sipos de Navios (Versão Descobrintos)**
+**Grupo:** TP06-06
 
-Nesta versão histórica da Batalha Naval utilizamos navios da época dos Descobrimentos.
+## 👥 Membros da Equipa
 
-Nome (PT)	Nome (EN)	Dimensão	Quantidade
-Galeão	Galleon	5	1
-Fragata	Frigate	4	1
-Nau	Carrack	3	2
-Caravela	Caravel	2	3
-Barca	Barge	1	4
-Regras de posicionamento:
+| Curso | Número | Nome |
+| :---: | :---: | :--- |
+| IGE | 111722 | Eduardo Carvalho |
+| IGE | 105418 | Francisco Cabral |
+| IGE | 105333 | Francisca Bastos |
+| IGE | 111825 | Fredson Munguambe |
 
-Apenas horizontal ou vertical
+---
 
-Não podem sobrepor-se
+## ⛵ Tipos de Navios (Época dos Descobrimentos)
 
-Não podem tocar-se
+Nesta versão histórica da Batalha Naval, a frota tradicional foi adaptada para refletir os navios da expansão marítima portuguesa dos séculos XV e XVI:
 
-Podem encostar à borda da grelha
+| Nome (PT) | Nome (EN) | Dimensão | Quantidade |
+| :--- | :--- | :---: | :---: |
+| **Galeão** | Galleon | 5 | 1 |
+| **Fragata** | Frigate | 4 | 1 |
+| **Nau** | Carrack | 3 | 2 |
+| **Caravela** | Caravel | 2 | 3 |
+| **Barca** | Barge | 1 | 4 |
 
-**Regras do Jogo**
+---
 
-O jogo é jogado numa grelha 10x10.
+## 📜 Regras do Jogo
 
-Cada jogador possui:
+O jogo decorre numa **grelha de 10x10**, onde cada jogador possui duas grelhas: uma para a sua frota e outra para registar os tiros no adversário.
 
-Uma grelha com a sua frota
+### 🧭 Posicionamento
+* Os navios devem ser colocados na **horizontal ou vertical**, sem que o adversário os veja.
+* Os navios **não podem sobrepor-se** e **não se podem tocar** entre si.
+* Os navios podem encostar à borda da grelha.
 
-Uma grelha para registar tiros no adversário
+### ⚔️ Turnos e Disparos
+* Cada jogador, à sua vez, dispara **3 tiros por turno**.
+* Os tiros são definidos por coordenadas (linha, coluna).
+* O adversário deve responder com o resultado da rajada:
+  * 💧 **Água**
+  * 💥 **Acerto** (indicando o tipo de navio)
+  * ☠️ **Navio Afundado**
+* Cada jogador regista na grelha do oponente os resultados dos seus tiros.
 
-**Turnos:**
+### 🏆 Condição de Vitória
+Ganha o jogo o primeiro jogador que **afundar todos os navios** da frota adversária.
 
-Cada jogador dispara 3 tiros por turno
+---
 
-Os tiros são definidos por coordenadas (linha, coluna)
+## 🔗 Contexto Histórico
+Esta versão inspira-se fortemente na frota marítima da época dos Descobrimentos Portugueses. Estes navios foram fundamentais na expansão marítima nos séculos XV e XVI. Para conhecerem melhor os navios desta época:
 
-**O adversário responde com:**
-
-Água
-
-Acerto
-
-Navio afundado
-
-Condição de Vitória
-
-**Ganha o jogador que:**
-
-Afundar todos os navios do adversário primeiro
-
-Contexto histórico:
-
-Esta versão inspira-se na frota marítima da época dos Descobrimentos Portugueses.
-
-Alguns navios históricos:
-Galeão
-Fragata
-Nau
-Caravela
-
-Estes navios foram fundamentais na expansão marítima portuguesa dos séculos XV e XVI 
+* [📖 História do Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+* [📖 História da Caravela](https://pt.wikipedia.org/wiki/Caravela)
+* [📖 História da Nau](https://pt.wikipedia.org/wiki/Nau)
