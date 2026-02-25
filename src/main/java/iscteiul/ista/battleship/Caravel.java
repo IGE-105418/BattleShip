@@ -1,6 +1,9 @@
 /**
  *
  */
+/**
+ * Bem feito
+ */
 package iscteiul.ista.battleship;
 
 public class Caravel extends Ship {
