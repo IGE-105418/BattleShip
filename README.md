@@ -25,7 +25,7 @@ Nesta versão histórica da Batalha Naval, a frota tradicional foi adaptada para
 | **Caravela** | Caravel | 2 | 3 |
 | **Barca** | Barge | 1 | 4 |
 
----
+----
 
 ## 📜 Regras do Jogo
 
@@ -48,6 +48,7 @@ O jogo decorre numa **grelha de 10x10**, onde cada jogador possui duas grelhas: 
 ### 🏆 Condição de Vitória
 Ganha o jogo o primeiro jogador que **afundar todos os navios** da frota adversária.
 
+----
 ---.
 
 ## 🔗 Contexto Histórico
