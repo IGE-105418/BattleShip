@@ -76,10 +76,6 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/battleship-game:${{ github.sha }}
 
       # 10. Atualizar documentação no GitHub Pages
-      - name: Generate Maven site
-        run: mvn site --no-transfer-progress
-        continue-on-error: true
-
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
