@@ -1,0 +1,16 @@
+{
+  "name": "Java & Maven DevContainer (Batalha Naval)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "jetbrains": {
+      "plugins": [
+        "com.jetbrains.space",
+        "org.jetbrains.plugins.terminal"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "mvn clean compile"
+}
