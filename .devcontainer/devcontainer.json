@@ -1,16 +1,32 @@
 {
-  "name": "Battleship DevContainer",
+  "name": "Battleship Dev Environment",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "extensions": [
+        "vscjava.vscode-java-pack",
         "ms-azuretools.vscode-docker",
         "github.vscode-github-actions",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "SonarSource.sonarlint-vscode"
+      ],
+      "settings": {
+        "java.compile.nullAnalysis.mode": "automatic",
+        "editor.formatOnSave": true
+      }
+    },
+    "jetbrains": {
+      "plugins": [
+        "Docker",
+        "org.jetbrains.plugins.github",
+        "net.ashald.envfile"
       ]
     }
-  }
+  },
+  "postCreateCommand": "mvn clean compile --no-transfer-progress",
+  "remoteUser": "vscode",
+  "forwardPorts": [],
+  "mounts": []
 }
