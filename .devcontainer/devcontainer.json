@@ -1,16 +1,16 @@
 {
-  "name": "Java & Maven DevContainer (Batalha Naval)",
+  "name": "Battleship DevContainer",
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "workspaceFolder": "/workspace",
   "customizations": {
-    "jetbrains": {
-      "plugins": [
-        "com.jetbrains.space",
-        "org.jetbrains.plugins.terminal"
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "github.vscode-github-actions",
+        "yzhang.markdown-all-in-one"
       ]
     }
-  },
-  "remoteUser": "vscode",
-  "postCreateCommand": "mvn clean compile"
+  }
 }

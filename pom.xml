@@ -28,13 +28,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -42,6 +43,7 @@
       <version>2.25.2</version>
       <scope>compile</scope>
     </dependency>
+  </dependencies>
 
   <reporting>
     <plugins>
@@ -50,4 +52,5 @@
       </plugin>
     </plugins>
   </reporting>
+
 </project>
