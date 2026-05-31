@@ -37,7 +37,6 @@ jobs:
 
       # 6. Validar qualidade no SonarQube Cloud (requer SONAR_TOKEN configurado)
       - name: SonarQube Cloud analysis
-        if: ${{ secrets.SONAR_TOKEN != '' }}
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
