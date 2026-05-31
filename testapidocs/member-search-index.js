@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"iscteiul.ista","c":"AppTest","l":"AppTest()","u":"%3Cinit%3E()"}];updateSearchResults();

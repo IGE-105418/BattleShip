@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"iscteiul.ista"},{"l":"iscteiul.ista.battleship"}];updateSearchResults();
