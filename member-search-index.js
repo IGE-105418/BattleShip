@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"iscteiul.ista.battleship","c":"Barge","l":"Barge(Compass, IPosition)","u":"%3Cinit%3E(iscteiul.ista.battleship.Compass,iscteiul.ista.battleship.IPosition)"},{"p":"iscteiul.ista.battleship","c":"Barge","l":"getSize()"}];updateSearchResults();
