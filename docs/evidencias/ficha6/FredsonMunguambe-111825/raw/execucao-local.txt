@@ -1,0 +1,148 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260531210412
+Username: LATITUTDE7450\Fredson
+RunAs User: LATITUTDE7450\Fredson
+Configuration Name: 
+Machine: LATITUTDE7450 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell.exe -NoExit -ExecutionPolicy Bypass -File D:\IntelliJ IDEA 2025.3.3\plugins\terminal\shell-integrations\powershell\powershell-integration.ps1
+Process ID: 20388
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\docs\evidencias\ficha6\FredsonMunguambe-111825\execucao-local.txt
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker version
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker compose version
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker images
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker ps -a
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>New-Item -ItemType Directory -Force "C:\Users\Fredson\my_web_pages"
+
+
+    Directory: C:\Users\Fredson
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31/05/2026     21:08                my_web_pages
+
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker rm -f myXampp
+Error response from daemon: No such container: myXampp
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker pull tomsik68/xampp
+3534bd7313b4: Pull complete
+2d429b9e73a6: Pull complete
+7a94331801c7: Pull complete
+10397bd1b805: Extracting 22 s
+46c90163ce2a: Download complete
+failed to extract layer (application/vnd.oci.image.layer.v1.tar+gzip sha256:10397bd1b805df3136cc44eedf794f05c02476f68490b61b8374247f992de077) to overl
+ayfs as "extract-362617047-fM-2 sha256:710919ddd3a53f6a1848ad94678cb86657eee3e71c0dd253c7f6d6e8792ddb32": open /var/lib/desktop-containerd/daemon/io.c
+ontainerd.snapshotter.v1.overlayfs/snapshots/5/fs/opt/lampp/lib/instantclient-11.2.0.3.0/libocijdbc11.so: read-only file system
+]1341;command_finished;exit_code=1;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker run --name myXampp -p 41061:22 -p 41062:80 -d -v "C:\Users\Fredson\my_web_pages:/www" tomsik68/xampp
+
+]1341;command_finished;exit_code=1;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker pull tomsik68/xampp
+
+]1341;command_finished;exit_code=1;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker pull tomsik68/xampp
+
+]1341;command_finished;exit_code=1;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker pull tomsik68/xampp
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker images
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker run --name myXampp -p 41061:22 -p 41062:80 -d -v "C:\Users\Fredson\my_web_pages:/www" tomsik68/xampp
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker ps -a
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>notepad "C:\Users\Fredson\my_web_pages\index.php"
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>Copy-Item "C:\Users\Fredson\my_web_pages\index.php" ".\docker-examples\xampp\index.php" -Force
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>cd .\docker-examples\wordpress
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose config
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose up -d
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose ps
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>cd .\docker-examples\wordpress
+cd : Cannot find path 
+'C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress\docker-examples\wordpress' because it does not 
+exist.
+At line:1 char:1
++ cd .\docker-examples\wordpress
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Fredso...mples\wordpress:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress\docker-examples\wordpress' because it does not exist.
+At line:1 char:1
++ cd .\docker-examples\wordpress
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Fredso...mples\wordpress:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+]1341;command_finished;exit_code=1;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose config
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose up -d
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose ps
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>docker compose down
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C65536869705C646F636B65722D6578616D706C65735C776F72647072657373]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip\docker-examples\wordpress> ]1341;prompt_finished
+PS>cd ..\..
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker rm -f mongodb
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker pull mongo:latest
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker images
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker run --name mongodb -p 27017:27017 -d mongo:latest
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker ps
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>docker exec -it mongodb bash
+
+]1341;command_finished;exit_code=0;current_directory=433A5C55736572735C46726564736F6E5C4964656150726F6A656374735C426C61636B426174746C6553686970]1341;prompt_startedPS C:\Users\Fredson\IdeaProjects\BlackBattleShip> ]1341;prompt_finished
+PS>exit
+**********************
+Windows PowerShell transcript end
+End time: 20260531223117
+**********************
